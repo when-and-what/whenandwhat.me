@@ -15,6 +15,7 @@
         <p>We collect the following types of information when you use When and What:</p>
         <ul>
             <li><strong>Account information:</strong> Your email address and a display name when you create an account.</li>
+            <li><strong>Billing information:</strong> If you subscribe, we collect the details necessary to process your payment. Card details are handled entirely by Stripe and are never stored on our servers. We retain a record of your subscription status and billing period.</li>
             <li><strong>Activity data from third-party services:</strong> When you connect Trakt, Strava, or ListenBrainz, we import activity data from those services (watch history, workouts, listening history) on your behalf, using the permissions you grant.</li>
             <li><strong>Check-in data:</strong> Location names, optional coordinates, and timestamps that you manually submit when you check in to a place.</li>
             <li><strong>Usage data:</strong> Standard server logs including IP address, browser type, pages visited, and timestamps, used for security and service improvement.</li>
@@ -31,13 +32,14 @@
         <p>We do not sell your personal data. We do not use your data for advertising.</p>
 
         <h2>3. Third-Party Services</h2>
-        <p>When and What integrates with the following third-party services at your direction. Each has its own privacy policy:</p>
+        <p>When and What integrates with the following third-party services. Each has its own privacy policy:</p>
         <ul>
             <li><strong>Trakt</strong> — <a href="https://trakt.tv/privacy" target="_blank" rel="noopener">trakt.tv/privacy</a></li>
             <li><strong>Strava</strong> — <a href="https://www.strava.com/legal/privacy" target="_blank" rel="noopener">strava.com/legal/privacy</a></li>
             <li><strong>ListenBrainz</strong> — <a href="https://metabrainz.org/privacy" target="_blank" rel="noopener">metabrainz.org/privacy</a></li>
+            <li><strong>Stripe</strong> — <a href="https://stripe.com/privacy" target="_blank" rel="noopener">stripe.com/privacy</a> — used to process subscription payments. We do not store your payment card details. Stripe may collect and process payment information in accordance with their own privacy policy and applicable law.</li>
         </ul>
-        <p>We only request the minimum permissions needed to read your activity data from these services. We do not post, modify, or delete data on these platforms on your behalf.</p>
+        <p>For activity integrations (Trakt, Strava, ListenBrainz), we only request the minimum permissions needed to read your activity data. We do not post, modify, or delete data on these platforms on your behalf.</p>
 
         <h2>4. Data Storage and Retention</h2>
         <p>Your data is stored on secure servers. We retain your data for as long as your account is active. If you delete your account, your personal data and imported activity data will be permanently deleted within 30 days.</p>
@@ -59,8 +61,10 @@
         <h2>8. Cookies</h2>
         <p>When and What uses cookies only for essential purposes: maintaining your login session and preventing cross-site request forgery. We do not use tracking or advertising cookies.</p>
 
-        <h2>9. Children</h2>
-        <p>When and What is not directed at children under 13 and we do not knowingly collect information from children under 13.</p>
+        <h2>9. Children's Privacy</h2>
+        <p>When and What is intended for users who are <strong>13 years of age or older</strong>. The service is not directed at children under 13, and we do not knowingly collect personal information from anyone under 13.</p>
+        <p>If you are a parent or guardian and believe your child under 13 has provided us with personal information, please contact us immediately. We will promptly delete that information from our records.</p>
+        <p>Users between the ages of 13 and 18 should review these terms with a parent or guardian before using the service.</p>
 
         <h2>10. Changes to This Policy</h2>
         <p>We may update this policy from time to time. We will notify you of significant changes by posting a notice in the app or by email. Your continued use after changes take effect constitutes acceptance of the updated policy.</p>

@@ -145,6 +145,40 @@
     </div>
 </section>
 
+{{-- ── Pricing teaser ─────────────────────────────────────────── --}}
+<section class="section section-alt">
+    <div class="container text-center">
+        <h2 class="section-title">One price. Everything included.</h2>
+        <p class="section-subtitle mb-5">No tiers, no feature gates — just pick how you'd like to pay.</p>
+        <div class="row justify-content-center g-4 mb-4">
+            <div class="col-sm-10 col-md-4 col-lg-3">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <h3 class="pricing-plan-name">Monthly</h3>
+                        <div class="pricing-price">
+                            <span class="pricing-currency">$</span><span class="pricing-amount">2</span><span class="pricing-period">/mo</span>
+                        </div>
+                    </div>
+                    <a href="{{ route('pricing') }}" class="btn btn-outline-secondary w-100">See plan</a>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-4 col-lg-3">
+                <div class="pricing-card pricing-card-featured">
+                    <div class="pricing-badge">Best value</div>
+                    <div class="pricing-card-header">
+                        <h3 class="pricing-plan-name">Annual</h3>
+                        <div class="pricing-price">
+                            <span class="pricing-currency">$</span><span class="pricing-amount">15</span><span class="pricing-period">/yr</span>
+                        </div>
+                    </div>
+                    <a href="{{ route('pricing') }}" class="btn btn-cta w-100">See plan</a>
+                </div>
+            </div>
+        </div>
+        <a href="{{ route('pricing') }}" class="text-muted small">View full pricing details <i class="bi bi-arrow-right ms-1"></i></a>
+    </div>
+</section>
+
 {{-- ── CTA Banner ────────────────────────────────────────────── --}}
 <div class="cta-banner">
     <div class="container">

@@ -22,6 +22,9 @@
                 <li class="nav-item">
                     <a class="nav-link {{ request()->is('faq') ? 'active' : '' }}" href="{{ url('/faq') }}">FAQ &amp; Tips</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->is('pricing') ? 'active' : '' }}" href="{{ url('/pricing') }}">Pricing</a>
+                </li>
                 <li class="nav-item ms-md-2">
                     <a class="btn btn-cta" href="https://whenandwhat.app" target="_blank" rel="noopener">
                         Open App <i class="bi bi-arrow-up-right ms-1"></i>
