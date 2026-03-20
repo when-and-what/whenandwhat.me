@@ -5,9 +5,8 @@
             <span class="navbar-brand-name">When and What<span class="navbar-brand-tld">.me</span></span>
         </a>
 
-        <button class="navbar-toggler border-0" type="button"
-                data-bs-toggle="collapse" data-bs-target="#mainNav"
-                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -17,17 +16,20 @@
                     <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('features') ? 'active' : '' }}" href="{{ url('/features') }}">Features</a>
+                    <a class="nav-link {{ request()->is('features') ? 'active' : '' }}"
+                        href="{{ url('/features') }}">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('faq') ? 'active' : '' }}" href="{{ url('/faq') }}">FAQ &amp; Tips</a>
+                    <a class="nav-link {{ request()->is('faq') ? 'active' : '' }}" href="{{ url('/faq') }}">FAQ &amp;
+                        Tips</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('pricing') ? 'active' : '' }}" href="{{ url('/pricing') }}">Pricing</a>
+                    <a class="nav-link {{ request()->is('pricing') ? 'active' : '' }}"
+                        href="{{ url('/pricing') }}">Pricing</a>
                 </li>
                 <li class="nav-item ms-md-2">
                     <a class="btn btn-cta" href="https://whenandwhat.app" target="_blank" rel="noopener">
-                        Open App <i class="bi bi-arrow-up-right ms-1"></i>
+                        Open App <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
                     </a>
                 </li>
             </ul>

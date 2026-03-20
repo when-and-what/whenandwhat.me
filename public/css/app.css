@@ -246,6 +246,27 @@ a:hover { color: var(--ww-accent-dark); }
   max-width: 100%;
 }
 
+/* ─── Panel mockup (narrow features) ───────────────────────── */
+.screenshot-panel-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screenshot-panel {
+  width: 100%;
+  max-width: 340px;
+  /* background: var(--ww-border); */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 3 / 4;
+  color: var(--ww-muted);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 /* ─── Feature detail rows ───────────────────────────────────── */
 .feature-detail {
   padding: 3.5rem 0;

@@ -3,7 +3,8 @@
         <div class="row align-items-center gy-3">
             <div class="col-md-4">
                 <div class="d-flex align-items-center gap-2">
-                    <img src="{{ asset('images/logo.png') }}" alt="" height="28" style="filter: brightness(0) invert(1); opacity: 0.85;">
+                    <img src="{{ asset('images/logo.png') }}" alt="" height="28"
+                        style="filter: brightness(0) invert(1); opacity: 0.85;">
                     <span class="footer-brand-name">When and What<span class="footer-brand-tld">.me</span></span>
                 </div>
             </div>
