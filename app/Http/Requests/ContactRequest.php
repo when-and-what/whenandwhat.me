@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use App\Rules\Turnstile;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
@@ -26,6 +27,7 @@ class ContactRequest extends FormRequest
             'name' => 'required|string',
             'email' => 'required|email:rfc,dns',
             'message' => 'required|string',
+            'cf-turnstile-response' => ['required', new Turnstile],
         ];
     }
 }
