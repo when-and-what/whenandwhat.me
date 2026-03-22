@@ -28,9 +28,9 @@
                         href="{{ url('/pricing') }}">Pricing</a>
                 </li>
                 <li class="nav-item ms-md-2">
-                    <a class="btn btn-cta" href="https://whenandwhat.app" target="_blank" rel="noopener">
-                        Open App <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
-                    </a>
+                    <button class="btn btn-cta" disabled>
+                        Coming Soon
+                    </button>
                 </li>
             </ul>
         </div>

@@ -17,9 +17,9 @@
                         location check-ins and personal notes — into a single, clean daily rundown.
                     </p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="https://whenandwhat.app" target="_blank" rel="noopener" class="btn btn-cta btn-lg">
-                            Get Started <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
-                        </a>
+                        <button class="btn btn-cta btn-lg" disabled>
+                            Coming Soon
+                        </button>
                         <a href="{{ route('features') }}" class="btn btn-outline-secondary btn-lg">
                             See Features
                         </a>
@@ -200,9 +200,9 @@
             <h2>Ready to see your day?</h2>
             <p class="mb-4">Start building your daily record — it takes less than a minute to connect your first service.
             </p>
-            <a href="https://whenandwhat.app" target="_blank" rel="noopener" class="btn btn-cta btn-lg">
-                Open When and What <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
-            </a>
+            <button class="btn btn-cta btn-lg" disabled>
+                Coming Soon
+            </button>
         </div>
     </div>
 

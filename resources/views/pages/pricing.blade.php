@@ -38,10 +38,9 @@
                             <li><i class="fa-solid fa-check"></i> Unlimited history</li>
                             <li><i class="fa-solid fa-check"></i> All future features included</li>
                         </ul>
-                        <a href="https://whenandwhat.app/subscribe/monthly" target="_blank" rel="noopener"
-                            class="btn btn-outline-secondary w-100 btn-lg">
-                            Get started
-                        </a>
+                        <button class="btn btn-outline-secondary w-100 btn-lg" disabled>
+                            Coming Soon
+                        </button>
                     </div>
                 </div>
 
@@ -65,10 +64,9 @@
                             <li><i class="fa-solid fa-check"></i> Unlimited history</li>
                             <li><i class="fa-solid fa-check"></i> All future features included</li>
                         </ul>
-                        <a href="https://whenandwhat.app/subscribe/annual" target="_blank" rel="noopener"
-                            class="btn btn-cta w-100 btn-lg">
-                            Get started
-                        </a>
+                        <button class="btn btn-cta w-100 btn-lg" disabled>
+                            Coming Soon
+                        </button>
                     </div>
                 </div>
 
@@ -130,9 +128,9 @@
         <div class="container">
             <h2>Ready to start?</h2>
             <p class="mb-4">Pick a plan and have your first daily summary ready in minutes.</p>
-            <a href="https://whenandwhat.app" target="_blank" rel="noopener" class="btn btn-cta btn-lg">
-                Open When and What <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
-            </a>
+            <button class="btn btn-cta btn-lg" disabled>
+                Coming Soon
+            </button>
         </div>
     </div>
 

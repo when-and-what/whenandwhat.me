@@ -188,9 +188,9 @@
         <div class="container">
             <h2>Start tracking your days</h2>
             <p class="mb-4">Connect your first integration in under a minute.</p>
-            <a href="https://whenandwhat.app" target="_blank" rel="noopener" class="btn btn-cta btn-lg">
-                Open When and What <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
-            </a>
+            <button class="btn btn-cta btn-lg" disabled>
+                Coming Soon
+            </button>
         </div>
     </div>
 

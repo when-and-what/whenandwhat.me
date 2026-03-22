@@ -20,8 +20,7 @@
     <section class="section">
         <div class="container" style="max-width: 780px;">
             <h2 class="section-title mb-1">Frequently Asked Questions</h2>
-            <p class="section-subtitle">Can't find your answer? <a href="https://whenandwhat.app" target="_blank"
-                    rel="noopener">Contact us through the app.</a></p>
+            <p class="section-subtitle">Can't find your answer? Contact us through the app when it launches.</p>
 
             <livewire:accordion-faq />
         </div>
@@ -183,9 +182,9 @@
         <div class="container">
             <h2>Ready to connect your services?</h2>
             <p class="mb-4">Head to the app to link Trakt, Strava, and ListenBrainz.</p>
-            <a href="https://whenandwhat.app" target="_blank" rel="noopener" class="btn btn-cta btn-lg">
-                Open When and What <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
-            </a>
+            <button class="btn btn-cta btn-lg" disabled>
+                Coming Soon
+            </button>
         </div>
     </div>
 
