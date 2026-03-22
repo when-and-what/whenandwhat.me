@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.home')->name('home');
@@ -10,3 +11,5 @@ Route::view('/example', 'pages.example')->name('example');
 Route::view('/checkin', 'pages.checkin-example')->name('checkin-example');
 Route::view('/privacy', 'pages.privacy')->name('privacy');
 Route::view('/terms', 'pages.terms')->name('terms');
+Route::view('/contact', 'pages.contact')->name('contact');
+Route::post('/contact', ContactController::class)->name('contact.submit');

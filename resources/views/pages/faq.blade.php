@@ -20,7 +20,7 @@
     <section class="section">
         <div class="container" style="max-width: 780px;">
             <h2 class="section-title mb-1">Frequently Asked Questions</h2>
-            <p class="section-subtitle">Can't find your answer? Contact us through the app when it launches.</p>
+            <p class="section-subtitle">Can't find your answer? <a href="{{ route('contact') }}">Send us a message.</a></p>
 
             <livewire:accordion-faq />
         </div>

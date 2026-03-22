@@ -13,7 +13,7 @@
                     <a href="{{ url('/') }}">Home</a>
                     <a href="{{ url('/features') }}">Features</a>
                     <a href="{{ url('/faq') }}">FAQ &amp; Tips</a>
-                    <a href="{{ url('/pricing') }}">Pricing</a>
+                    <a href="{{ url('/contact') }}">Contact</a>
                     <a href="{{ url('/privacy') }}">Privacy</a>
                     <a href="{{ url('/terms') }}">Terms</a>
                 </nav>
