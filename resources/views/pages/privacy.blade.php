@@ -9,7 +9,7 @@
             <h1>Privacy Policy</h1>
             <p class="effective-date">Effective date: {{ date('F j, Y') }}</p>
 
-            <p>When and What ("we", "our", or "us") operates the When and What service, accessible at <a
+            <p>When and What, LLC ("we", "our", or "us") operates the When and What service, accessible at <a
                     href="https://whenandwhat.app">whenandwhat.app</a>. This page describes what information we collect, how
                 we use it, and your rights regarding your data.</p>
 
