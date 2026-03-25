@@ -379,6 +379,11 @@ a:hover { color: var(--ww-accent-dark); }
 
 .site-footer a:hover { color: #fff; }
 
+.footer-social-link {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
 
 /* ─── Pricing cards ─────────────────────────────────────────── */
 .pricing-card {

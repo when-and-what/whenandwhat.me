@@ -33,7 +33,7 @@ class AccordionFaq extends Component
         ],
         [
             'question' => 'How do I add a check-in?',
-            'answer'   => 'Open the app at whenandwhat.app and use the Check In button to log your current location or any place you\'ve visited. You can add a name, and optionally pin it on the map.',
+            'answer'   => 'Open the app at whenandwhat.app and use the Check In button to log your current location or any place you\'ve visited. You can add a name and optional category for each location and an optional note for each checkin.',
         ],
         [
             'question' => 'Can I look back at old days?',

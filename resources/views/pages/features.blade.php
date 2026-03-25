@@ -62,8 +62,7 @@
                             automatically synced</li>
                         <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Show titles, episode
                             names, and watch times</li>
-                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Works with any
-                            Trakt-connected media player</li>
+                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Whether you're logging manually or <a href="https://forums.trakt.tv/t/automatically-sync-your-streaming-services/34947" target="_blank">automatically syncing</a> your check-ins will show up on your dashboard</li>
                     </ul>
                 </div>
                 <div class="col-lg-6 screenshot-panel-wrap">
@@ -86,8 +85,8 @@
                     <ul class="list-unstyled mt-3" style="font-size: 0.875rem; color: var(--ww-muted);">
                         <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> All Strava activity
                             types supported</li>
-                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Distance, duration, and
-                            activity name shown</li>
+                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Time, duration, and
+                            activity name shown with a link to your strava activity</li>
                         <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Auto-syncs when new
                             activities are recorded</li>
                     </ul>
@@ -116,11 +115,12 @@
                             information included</li>
                         <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Works with any
                             ListenBrainz-compatible scrobbler</li>
+                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Scrobbles are grouped together so keep your feed clean. Click the down arrow to see all tracks!
                     </ul>
                 </div>
                 <div class="col-lg-6 screenshot-panel-wrap">
                     <div class="screenshot-panel">
-                        <span>ListenBrainz screenshot</span>
+                        <img src="/images/screenshots/listenbrainz.png" class="mw-100"  alt="Screenshot of whenandwhat.app music events" />
                     </div>
                 </div>
             </div>
@@ -138,11 +138,10 @@
                     <ul class="list-unstyled mt-3" style="font-size: 0.875rem; color: var(--ww-muted);">
                         <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Quick check-ins from
                             any device</li>
-                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Interactive map of
-                            places visited</li>
+                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Check-in when you're out and about or add a check-in you missed from earlier</li>
                         <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Custom place names and
                             notes</li>
-                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Completely private — your locations, not a third-party service</li>
+                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Completely private — your locations; your checkins.</li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
