@@ -19,7 +19,15 @@
                 </nav>
             </div>
             <div class="col-md-4 text-md-end">
-                <span>&copy; {{ date('Y') }} When and What. All rights reserved.</span>
+                <div class="d-flex gap-3 justify-content-md-end align-items-center mb-1">
+                    <a href="https://phpc.social/@whenandwhat" target="_blank" rel="noopener me" aria-label="Mastodon" class="footer-social-link">
+                        <i class="fa-brands fa-mastodon"></i>
+                    </a>
+                    <a href="https://bsky.app/profile/whenandwhat.me" target="_blank" rel="noopener" aria-label="Bluesky" class="footer-social-link">
+                        <i class="fa-brands fa-bluesky"></i>
+                    </a>
+                </div>
+                <span>&copy; {{ date('Y') }} When and What, LLC. All rights reserved.</span>
             </div>
         </div>
     </div>
