@@ -79,7 +79,7 @@
                             @enderror
                         </div>
 
-                        <div class="cf-turnstile" data-sitekey="{{ config('services.cloudflare.turnstile.key') }}" data-callback="enableSubmit"></div>
+                        <div class="cf-turnstile" data-sitekey="{{ config('services.cloudflare.turnstile.key') }}" data-callback="enableSubmit" data-theme="light"></div>
 
                         <button type="submit" class="btn btn-cta btn-lg w-100" id="submit-button" disabled="disabled">
                             Send Message <i class="fa-solid fa-paper-plane ms-1"></i>
