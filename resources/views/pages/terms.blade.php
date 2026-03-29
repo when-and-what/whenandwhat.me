@@ -92,7 +92,7 @@
                 service operator is located.</p>
 
             <h2>13. Contact</h2>
-            <p>Questions about these Terms? Contact us through <a href="https://whenandwhat.app">whenandwhat.app</a>.</p>
+            <p>Questions about these Terms? <a href="/contact">Contact us</a></p>
         </div>
     </div>
 @endsection

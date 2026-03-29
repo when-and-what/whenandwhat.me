@@ -176,6 +176,18 @@
                     </div>
                 </div>
                 <div class="col-sm-10 col-md-4 col-lg-3">
+                    <div class="pricing-card">
+                        <div class="pricing-card-header">
+                            <h3 class="pricing-plan-name">6 Months</h3>
+                            <div class="pricing-price">
+                                <span class="pricing-currency">$</span><span class="pricing-amount">10</span><span
+                                    class="pricing-period">/6 mo</span>
+                            </div>
+                        </div>
+                        <a href="{{ route('pricing') }}" class="btn btn-outline-secondary w-100">See plan</a>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-4 col-lg-3">
                     <div class="pricing-card pricing-card-featured">
                         <div class="pricing-badge">Best value</div>
                         <div class="pricing-card-header">
