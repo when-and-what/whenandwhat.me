@@ -24,6 +24,10 @@
                         Tips</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link {{ request()->is('example') ? 'active' : '' }}" href="{{ url('/example') }}">See
+                        an Example</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link {{ request()->is('pricing') ? 'active' : '' }}"
                         href="{{ url('/pricing') }}">Pricing</a>
                 </li>
