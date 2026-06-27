@@ -21,7 +21,7 @@
                 <div class="col-lg-6 col-md-8">
                     <ul class="pricing-features">
                         <li><i class="fa-solid fa-check"></i> Full daily activity summaries</li>
-                        <li><i class="fa-solid fa-check"></i> Trakt, Strava &amp; ListenBrainz sync</li>
+                        <li><i class="fa-solid fa-check"></i> Trakt, <a href="/features#strava">Strava*</a> &amp; ListenBrainz sync</li>
                         <li><i class="fa-solid fa-check"></i> Location check-ins</li>
                         <li><i class="fa-solid fa-check"></i> Unlimited history</li>
                         <li><i class="fa-solid fa-check"></i> Add notes to your timeline detailing your day</li>

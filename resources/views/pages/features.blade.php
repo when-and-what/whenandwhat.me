@@ -74,7 +74,7 @@
         </div>
 
         {{-- ── Feature: Strava ───────────────────────────────────── --}}
-        <div class="feature-detail">
+        <div class="feature-detail" id="strava">
             <div class="row align-items-center g-5">
                 <div class="col-lg-6">
                     <span class="badge text-bg-light border mb-3" style="font-size:0.75rem;"><img src="/images/strava-powered.svg" height="45" alt="Powered by Strava" /></span>
@@ -82,7 +82,7 @@
                     <p>Your Strava activities — runs, rides, walks, swims, and more — are pulled in automatically. See your
                         workout alongside everything else that happened that day for a complete picture of how active you
                         were.</p>
-                    <ul class="list-unstyled mt-3" style="font-size: 0.875rem; color: var(--ww-muted);">
+                    <ul class="list-unstyled mt-3" style="font-size: 0.9rem; color: var(--ww-muted);">
                         <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> All Strava activity
                             types supported</li>
                         <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Time, duration, and
@@ -90,6 +90,8 @@
                         <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Auto-syncs when new
                             activities are recorded</li>
                     </ul>
+
+                    <p style="font-size: .8rem;"><i class="fa-solid fa-triangle-exclamation"></i> Strava is changing their developer access and it's unclear at this point if When & What will retain access after this year. Additional service integrations are planned to track workouts.</p>
                 </div>
                 <div class="col-lg-6">
                     <div class="screenshot-placeholder ratio ratio-16x9">
