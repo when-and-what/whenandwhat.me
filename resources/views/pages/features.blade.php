@@ -182,6 +182,32 @@
             </div>
         </div>
 
+        {{-- ── Feature: Memories ─────────────────────────────────── --}}
+        <div class="feature-detail">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <span class="badge text-bg-light border mb-3" style="font-size:0.75rem;">🗓️ Memories</span>
+                    <h3>Revisit any trip, event, or stretch of time</h3>
+                    <p>Save a named date range as a Memory and you'll always have a shortcut back to everything that
+                        happened during it. Whether it's a weekend away, a long summer vacation, or just a great few days — all
+                        your activity from that window is one click away.</p>
+                    <ul class="list-unstyled mt-3" style="font-size: 0.875rem; color: var(--ww-muted);">
+                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Name and save any
+                            date range</li>
+                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> View all your
+                            activity from that period in a single timeline</li>
+                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Add tags to
+                            categorise and organise your memories</li>
+                        <li class="mb-2"><i class="fa-solid fa-circle-check text-success me-2"></i> Works across all
+                            integrations — workouts, check-ins, watch history, music, and notes</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/screenshots/memory.png" class="mw-100" alt="Screenshot of whenandwhat.app memory" />
+                </div>
+            </div>
+        </div>
+
     </section>
 
     {{-- ── CTA ───────────────────────────────────────────────────── --}}

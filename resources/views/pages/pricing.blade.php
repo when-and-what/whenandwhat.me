@@ -25,6 +25,7 @@
                         <li><i class="fa-solid fa-check"></i> Location check-ins</li>
                         <li><i class="fa-solid fa-check"></i> Unlimited history</li>
                         <li><i class="fa-solid fa-check"></i> Add notes to your timeline detailing your day</li>
+                        <li><i class="fa-solid fa-check"></i> Memories — save and revisit any trip, event, or date range</li>
                     </ul>
                 </div>
             </div>
