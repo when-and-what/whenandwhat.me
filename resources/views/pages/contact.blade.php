@@ -32,6 +32,7 @@
 
                     <form action="{{ route('contact.submit') }}" method="POST" novalidate>
                         @csrf
+                        <x-honeypot />
 
                         <div class="mb-4">
                             <label for="name" class="form-label fw-600">Name</label>
@@ -79,9 +80,7 @@
                             @enderror
                         </div>
 
-                        <div class="cf-turnstile mb-3" data-sitekey="{{ config('services.cloudflare.turnstile.key') }}" data-callback="enableSubmit" data-theme="light"></div>
-
-                        <button type="submit" class="btn btn-cta btn-lg w-100" id="submit-button" disabled="disabled">
+                        <button type="submit" class="btn btn-cta btn-lg w-100" id="submit-button">
                             Send Message <i class="fa-solid fa-paper-plane ms-1"></i>
                         </button>
                     </form>
@@ -93,14 +92,6 @@
 
 @endsection
 
-@push('scripts')
-    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-    <script>
-        function enableSubmit() {
-            document.getElementById("submit-button").disabled = false;
-        }
-    </script>
-@endpush
 @push('styles')
 <style>
     .fw-600 { font-weight: 600; }

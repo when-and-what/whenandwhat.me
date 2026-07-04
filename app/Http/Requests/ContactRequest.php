@@ -27,7 +27,6 @@ class ContactRequest extends FormRequest
             'name' => 'required|string',
             'email' => 'required|email:rfc,dns',
             'message' => 'required|string',
-            'cf-turnstile-response' => ['required', new Turnstile],
         ];
     }
 }

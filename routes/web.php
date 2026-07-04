@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
+use Spatie\Honeypot\ProtectAgainstSpam;
 
 Route::view('/', 'pages.home')->name('home');
 Route::view('/features', 'pages.features')->name('features');
@@ -12,4 +13,4 @@ Route::view('/checkin', 'pages.checkin-example')->name('checkin-example');
 Route::view('/privacy', 'pages.privacy')->name('privacy');
 Route::view('/terms', 'pages.terms')->name('terms');
 Route::view('/contact', 'pages.contact')->name('contact');
-Route::post('/contact', ContactController::class)->name('contact.submit');
+Route::post('/contact', ContactController::class)->name('contact.submit')->middleware(ProtectAgainstSpam::class);

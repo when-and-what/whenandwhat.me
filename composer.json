@@ -11,7 +11,8 @@
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^4.2",
         "resend/resend-laravel": "^1.3",
-        "simplestats-io/laravel-client": "^3.5"
+        "simplestats-io/laravel-client": "^3.5",
+        "spatie/laravel-honeypot": "^4.7"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
