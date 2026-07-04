@@ -143,6 +143,13 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="feature-card">
+                        <div class="feature-icon">🗓️</div>
+                        <h5>Memories</h5>
+                        <p>Save a date range as a Memory and revisit everything from that trip, event, or stretch of time in one view.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="feature-card">
                         <div class="feature-icon">🔒</div>
                         <h5>Private by Default</h5>
                         <p>Your data stays yours. Nothing is shared unless you choose to share it.</p>

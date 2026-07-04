@@ -89,7 +89,7 @@
                 directed at children under 13, and we do not knowingly collect personal information from anyone under 13.
             </p>
             <p>If you are a parent or guardian and believe your child under 13 has provided us with personal information,
-                please contact us immediately. We will promptly delete that information from our records.</p>
+                please <a href="/contact">contact us</a> immediately. We will promptly delete that information from our records.</p>
             <p>Users between the ages of 13 and 18 should review these terms with a parent or guardian before using the
                 service.</p>
 
@@ -99,8 +99,7 @@
                 policy.</p>
 
             <h2>11. Contact</h2>
-            <p>If you have questions about this Privacy Policy or your data, please contact us through <a
-                    href="https://whenandwhat.app">whenandwhat.app</a>.</p>
+            <p>If you have questions about this Privacy Policy or your data, please <a href="/contact">contact us</a>.</p>
         </div>
     </div>
 @endsection
