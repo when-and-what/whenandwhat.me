@@ -17,8 +17,8 @@
                         location check-ins and personal notes — into a single, clean daily rundown.
                     </p>
                     <div class="d-flex flex-wrap gap-3">
-                        <button class="btn btn-cta btn-lg" disabled>
-                            Coming Soon
+                        <a class="btn btn-cta btn-lg" href="https://whenandwhat.app/register">
+                            Free Trial
                         </button>
                         <a href="{{ route('features') }}" class="btn btn-outline-secondary btn-lg">
                             See Features
@@ -171,27 +171,13 @@
             <p class="section-subtitle mb-5">Two plans to choose from — pay monthly, every six months, or yearly.</p>
             <div class="row justify-content-center g-4 mb-4">
                 <div class="col-sm-10 col-md-4 col-lg-3">
-                    <div class="pricing-card">
-                        <div class="pricing-card-header">
-                            <h3 class="pricing-plan-name">Web</h3>
-                            <div class="pricing-price">
-                                <span class="pricing-currency">$</span><span class="pricing-amount">2</span><span
-                                    class="pricing-period">/mo</span>
-                            </div>
-                            <p class="pricing-description">Access via the website</p>
-                        </div>
-                        <a href="{{ route('pricing') }}" class="btn btn-outline-secondary w-100">See pricing</a>
-                    </div>
-                </div>
-                <div class="col-sm-10 col-md-4 col-lg-3">
                     <div class="pricing-card pricing-card-featured">
                         <div class="pricing-card-header">
-                            <h3 class="pricing-plan-name">Web + Mobile</h3>
+                            <h3 class="pricing-plan-name">Starting at</h3>
                             <div class="pricing-price">
-                                <span class="pricing-currency">$</span><span class="pricing-amount">4</span><span
+                                <span class="pricing-currency">$</span><span class="pricing-amount">1.25</span><span
                                     class="pricing-period">/mo</span>
                             </div>
-                            <p class="pricing-description">Website plus iOS &amp; Android apps</p>
                         </div>
                         <a href="{{ route('pricing') }}" class="btn btn-cta w-100">See pricing</a>
                     </div>
@@ -208,9 +194,9 @@
             <h2>Ready to see your day?</h2>
             <p class="mb-4">Start building your daily record — it takes less than a minute to connect your first service.
             </p>
-            <button class="btn btn-cta btn-lg" disabled>
-                Coming Soon
-            </button>
+            <a href="https://whenandwhat.app/accounts" class="btn btn-cta btn-lg">
+                Register
+            </a>
         </div>
     </div>
 

@@ -48,9 +48,9 @@
                             </div>
                             <p class="pricing-description">Pay as you go, cancel anytime.</p>
                         </div>
-                        <button class="btn btn-outline-secondary w-100 btn-lg mt-auto" disabled>
-                            Coming Soon
-                        </button>
+                        <a href="https://whenandwhat.app/accounts" class="btn btn-outline-secondary w-100 btn-lg mt-auto">
+                            Get Started
+                        </a>
                     </div>
                 </div>
 
@@ -65,9 +65,9 @@
                             </div>
                             <p class="pricing-description">Save $2 vs monthly — renews every six months.</p>
                         </div>
-                        <button class="btn btn-outline-secondary w-100 btn-lg mt-auto" disabled>
-                            Coming Soon
-                        </button>
+                        <a href="https://whenandwhat.app/accounts" class="btn btn-outline-secondary w-100 btn-lg mt-auto">
+                            Get Started
+                        </a>
                     </div>
                 </div>
 
@@ -83,9 +83,9 @@
                             </div>
                             <p class="pricing-description">Save $9 compared to monthly — that's 3 months free.</p>
                         </div>
-                        <button class="btn btn-cta w-100 btn-lg mt-auto" disabled>
-                            Coming Soon
-                        </button>
+                        <a href="https://whenandwhat.app/accounts" class="btn btn-cta w-100 btn-lg mt-auto">
+                            Get Started
+                        </a>
                     </div>
                 </div>
 
@@ -141,9 +141,9 @@
         <div class="container">
             <h2>Ready to start?</h2>
             <p class="mb-4">Pick a plan and have your first daily summary ready in minutes.</p>
-            <button class="btn btn-cta btn-lg" disabled>
-                Coming Soon
-            </button>
+            <a href="https://whenandwhat.app/accounts" class="btn btn-cta btn-lg">
+                Get Started
+            </a>
         </div>
     </div>
 

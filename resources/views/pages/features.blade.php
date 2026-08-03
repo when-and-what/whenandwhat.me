@@ -215,9 +215,9 @@
         <div class="container">
             <h2>Start tracking your days</h2>
             <p class="mb-4">Connect your first integration in under a minute.</p>
-            <button class="btn btn-cta btn-lg" disabled>
-                Coming Soon
-            </button>
+            <a href="https://whenandwhat.app/accounts" class="btn btn-cta btn-lg">
+                Get Started
+            </a>
         </div>
     </div>
 

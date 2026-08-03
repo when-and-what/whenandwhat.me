@@ -182,9 +182,9 @@
         <div class="container">
             <h2>Ready to connect your services?</h2>
             <p class="mb-4">Head to the app to link Trakt, Strava, and ListenBrainz.</p>
-            <button class="btn btn-cta btn-lg" disabled>
-                Coming Soon
-            </button>
+            <a class="btn btn-cta btn-lg" href="https://whenandwhat.app/accounts">
+                Register
+            </a>
         </div>
     </div>
 

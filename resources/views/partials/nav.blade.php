@@ -32,9 +32,9 @@
                         href="{{ url('/pricing') }}">Pricing</a>
                 </li>
                 <li class="nav-item ms-md-2">
-                    <button class="btn btn-cta" disabled>
-                        Coming Soon
-                    </button>
+                    <a href="http://whenandwhat.app/register" class="btn btn-cta">
+                        Free Trial
+                    </a>
                 </li>
             </ul>
         </div>
