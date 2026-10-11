@@ -9,7 +9,7 @@
                 <div class="tip-step">
                     <div class="tip-step-num">1</div>
                     <div>Log in at <a href="https://whenandwhat.app/user/api-tokens" target="_blank" rel="noopener">whenandwhat.app</a>,
-                        open your profile menu and choose <strong><a href="user/api-tokens" target="_blank">API Tokens</a></strong>.</div>
+                        open your profile menu and choose <strong><a href="https://whenandwhat.app/user/api-token" target="_blank">API Tokens</a></strong>.</div>
                 </div>
                 <div class="tip-step">
                     <div class="tip-step-num">2</div>
