@@ -211,7 +211,7 @@
     <div class="cta-banner">
         <div class="container">
             <h2>Ready to connect your services?</h2>
-            <p class="mb-4">Head to the app to link Trakt, Strava, and ListenBrainz.</p>
+            <p class="mb-4">Head to the app to setup your account and link your services.</p>
             <a class="btn btn-cta btn-lg" href="https://whenandwhat.app/accounts">
                 Register
             </a>
