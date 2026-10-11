@@ -7,6 +7,8 @@ use Spatie\Honeypot\ProtectAgainstSpam;
 Route::view('/', 'pages.home')->name('home');
 Route::view('/features', 'pages.features')->name('features');
 Route::view('/faq', 'pages.faq')->name('faq');
+Route::view('/automation/ios', 'pages.automation.ios')->name('automation.ios');
+Route::view('/automation/android', 'pages.automation.android')->name('automation.android');
 Route::view('/pricing', 'pages.pricing')->name('pricing');
 Route::view('/example', 'pages.example')->name('example');
 Route::view('/checkin', 'pages.checkin-example')->name('checkin-example');

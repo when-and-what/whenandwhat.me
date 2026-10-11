@@ -20,7 +20,7 @@
                         href="{{ url('/features') }}">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('faq') ? 'active' : '' }}" href="{{ url('/faq') }}">FAQ &amp;
+                    <a class="nav-link {{ request()->is('faq', 'automation/*') ? 'active' : '' }}" href="{{ url('/faq') }}">FAQ &amp;
                         Tips</a>
                 </li>
                 <li class="nav-item">

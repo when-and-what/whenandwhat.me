@@ -11,7 +11,7 @@
         <div class="container text-center" style="max-width: 600px;">
             <h1 style="font-size: clamp(1.75rem, 4vw, 2.5rem);">FAQ &amp; <span class="accent">Integration Tips</span></h1>
             <p class="lead mt-3" style="font-size: 1rem;">
-                Common questions answered, plus step-by-step guides for connecting your services.
+                Common questions answered, plus step-by-step guides for connecting and automating your services.
             </p>
         </div>
     </section>
@@ -173,6 +173,36 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    {{-- ── Automation ────────────────────────────────────────────── --}}
+    <section class="section">
+        <div class="container" style="max-width: 900px;">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Automation</h2>
+                <p class="section-subtitle">Check in and log notes without opening the app, using your phone's
+                    automation tools and the When and What API.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <a class="tip-card tip-card-link h-100 d-block" href="{{ route('automation.ios') }}">
+                        <h5>🍎 iOS — Shortcuts</h5>
+                        <p class="text-muted small mb-3">Use Apple's Shortcuts app to check in with one tap, check in
+                            automatically when you arrive somewhere, or log a quick note from the home screen.</p>
+                        <span class="small fw-semibold">View examples &amp; screenshots &rarr;</span>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="tip-card tip-card-link h-100 d-block" href="{{ route('automation.android') }}">
+                        <h5>🤖 Android — Tasker</h5>
+                        <p class="text-muted small mb-3">Use Tasker to send check-ins and notes from a home screen
+                            widget, or trigger them automatically by location or Wi-Fi network.</p>
+                        <span class="small fw-semibold">View examples &amp; screenshots &rarr;</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
