@@ -155,6 +155,7 @@ a:hover { color: var(--ww-accent-dark); }
   border: 1px solid var(--ww-border);
   border-radius: 12px;
   padding: 1.5rem 1.25rem;
+  height: 100%;
   text-align: center;
   transition: box-shadow 0.15s, transform 0.15s;
 }
